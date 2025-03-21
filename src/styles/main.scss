@@ -1,19 +1,21 @@
+// Import other stylesheets into this
+@use './normalize.scss/normalize' as *;
+@use "colors.scss" as *;
+
+
 html {
-    background: #000;
+    background: $Neutral110;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
 }
 
 body {
-    background: #000;
+    background: $Neutral110;
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #fff;
+    color: $Neutral10;
 }
