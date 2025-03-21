@@ -43,18 +43,18 @@ cd my-new-project
 npm install
 
 3. Build SCSS
-To compile SCSS manually:
 
+To compile SCSS manually:
 npm run build:scss
 
 4. Watch SCSS
-To automatically recompile SCSS on changes:
 
+To automatically recompile SCSS on changes:
 npm run watch:css
 
 5. Start the Live Server
-To preview your project and enable live reloading:
 
+To preview your project and enable live reloading:
 npm start
 
 ---
@@ -112,11 +112,12 @@ Scripts in package.json: Adjust or add new scripts for other tools or workflows.
 
 
 🖥️ Example Commands
+
 Start live server and watch SCSS:
-
 npm start
-Build SCSS only:
 
+
+Build SCSS only:
 npm run build:scss
 
 
@@ -124,10 +125,9 @@ npm run build:scss
 
 
 📖 Future Enhancements
+
 Consider adding:
 
 Linters like ESLint or Stylelint for code quality.
-
 Prettier for consistent formatting.
-
 Build Tools like Webpack or Vite for advanced workflows.
