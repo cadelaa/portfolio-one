@@ -31,7 +31,9 @@ File Watching: Watches SCSS files for changes and rebuilds CSS in real-time.
 
 Flexible Workflow: Easily extendable for more complex setups in the future.
 
+
 ---
+
 
 1. Clone the Repository
 
@@ -56,6 +58,33 @@ npm run watch:css
 
 To preview your project and enable live reloading:
 npm start
+
+
+---
+
+
+Checking where the project is pushed to / pulling from
+
+
+1. Check current remote URL
+
+   git remote -v
+
+
+2. Update the git remote to new URL
+
+   git remote set-url origin <NEW_GIT_URL>
+
+
+3. Verify the remote is set to the new one by rerunning
+
+   git remote -v
+
+
+4. Push to current branch in repo
+
+   git push origin <BRANCH_NAME>
+
 
 ---
 
