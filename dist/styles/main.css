@@ -310,7 +310,7 @@ template {
 html {
   background: #1A1A1A;
   display: flex;
-  margin: 0;
+  margin: 40px;
   padding: 0;
   height: 100%;
 }
@@ -320,8 +320,104 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1 {
+nav {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  gap: 16px;
+  padding: 16px 0;
+}
+nav li {
+  list-style: none;
+}
+
+h1, p {
   color: #CCCCCC;
+  margin: 0;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+  position: fixed;
+  bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  padding: 12px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  align-self: flex-start;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.default-button {
+  background-color: #333333;
+}
+.default-button:hover {
+  background-color: #404040;
+}
+
+.primary-button {
+  background-color: #256CF0;
+}
+.primary-button:hover {
+  background-color: #2160D6;
+}
+
+.secondary-button {
+  color: #5C91F4;
+  background-color: #0B2148;
+}
+.secondary-button:hover {
+  background-color: #11316C;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #5C91F4;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.tag {
+  display: inline-block;
+  padding: 12px 8px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  align-self: flex-start;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.default-tag {
+  color: #CCCCCC;
+  background-color: #333333;
 }
 
 /*# sourceMappingURL=main.css.map */
