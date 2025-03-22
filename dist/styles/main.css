@@ -341,7 +341,7 @@ nav li {
   list-style: none;
 }
 
-.hero-section {
+.hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
