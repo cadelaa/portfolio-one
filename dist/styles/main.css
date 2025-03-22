@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -309,15 +310,24 @@ template {
 
 html {
   background: #1A1A1A;
-  display: flex;
-  margin: 40px;
+  margin: 0 40px;
   padding: 0;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 body {
   background: #1A1A1A;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.container {
+  width: 1200px;
 }
 
 nav {
@@ -325,21 +335,26 @@ nav {
   flex-direction: row;
   color: #fff;
   gap: 16px;
-  padding: 16px 0;
+  margin: 40px 0;
 }
 nav li {
   list-style: none;
 }
 
-h1, p {
-  color: #CCCCCC;
-  margin: 0;
-}
-
 .hero-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  gap: 32px;
+  margin: 96px 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 96px 0;
+  width: 50%;
 }
 
 footer {
@@ -349,6 +364,21 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 40px;
+}
+
+h1, p {
+  color: #CCCCCC;
+  margin: 0;
+}
+
+.page-title {
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+}
+
+.body-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
 }
 
 a {
@@ -405,7 +435,7 @@ a {
 
 .tag {
   display: inline-block;
-  padding: 12px 8px;
+  padding: 12px;
   line-height: 1;
   font-size: 14px;
   font-weight: 600;
