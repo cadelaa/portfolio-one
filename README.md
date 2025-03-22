@@ -1,4 +1,4 @@
-Web Development Template
+Cloned project from web-dev-template
 
 This repository is a customizable and efficient starter template for simple web development projects. It includes SCSS support, live reloading, and a structured workflow to speed up development.
 
