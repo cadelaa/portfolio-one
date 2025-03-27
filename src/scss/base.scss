@@ -1,0 +1,12 @@
+// Styles (dependencies first)
+@use './colors' as *;
+@use './typography' as *;
+@use './components' as *;
+@use './mixins' as *;
+
+// Pages (dependent files after)
+@use './home' as *;
+@use './about' as *;
+
+// Normalize (external library last)
+@use './normalize.scss/normalize' as *;

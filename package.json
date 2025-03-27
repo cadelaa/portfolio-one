@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "build:scss": "sass src/styles/main.scss dist/styles/main.css",
-    "watch:css": "sass --watch src/styles/main.scss dist/styles/main.css",
+    "build:scss": "sass src/scss/base.scss dist/styles/base.css",
+    "watch:css": "sass --watch src/scss/base.scss dist/styles/base.css",
+    "build:prod": "sass src/scss/base.scss dist/styles/base.min.css --style compressed",
     "dev": "concurrently \"npm run watch:css\" \"npm start\""
   },
   "keywords": [],

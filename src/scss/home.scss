@@ -1,8 +1,6 @@
-// Import other stylesheets into this
-@use './normalize.scss/normalize' as *;
-@use "styles.scss" as *;
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@use './colors' as *;
 
+// homepage stuff
 
 html {
     background: $Neutral110;
