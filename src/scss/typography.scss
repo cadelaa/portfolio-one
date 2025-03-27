@@ -1,1 +1,22 @@
+@use './colors' as *;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// Text styles
+
+h1, p {
+    color: $white;
+    margin: 0;
+}
+
+.page-title {
+    font-family: "Inter", sans-serif;
+    font-size: 120px;
+}
+
+.body-text {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+//------------
+

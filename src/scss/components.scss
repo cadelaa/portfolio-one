@@ -1,0 +1,82 @@
+@use './colors' as *;
+
+// Button styles
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+.button {
+    display: flex;
+    padding: 12px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    align-self: flex-start;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.default-button {
+    background-color: $Neutral90;
+    &:hover {
+        background-color: $Neutral80;
+    }
+}
+
+.primary-button {
+    background-color: $Primary60;
+    &:hover {
+        background-color: $Primary70;
+    }
+}
+
+.secondary-button {
+    color: $Primary40;
+    background-color: $Primary110;
+    &:hover {
+        background-color: $Primary100;
+    }
+}
+
+.link {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        color: $Primary40;
+    }
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+//------------
+
+
+// Tag styles
+
+.tag {
+    display: inline-block;
+    padding: 12px;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    align-self: flex-start;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.default-tag {
+    color: $Neutral5;
+    background-color: $Neutral90;
+}
+
+
+//------------
