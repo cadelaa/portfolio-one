@@ -134,6 +134,20 @@ body {
   margin: 96px 0;
   width: 50%;
 }
+.main-content .project-content {
+  display: flex;
+}
+.main-content .project-content .project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main-content .project-content .project-card .image-content img {
+  width: 150px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Ensures the image scales proportionally */
+  border-radius: 8px; /* Optional: add rounded corners */
+}
 
 footer {
   display: flex;

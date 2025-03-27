@@ -53,7 +53,25 @@ body {
     gap: 32px;
     margin: 96px 0;
     width: 50%;
+
+    .project-content {
+        display: flex;
+
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .image-content img {
+                width: 150px; /* Fixed width */
+                height: 150px; /* Fixed height */
+                object-fit: cover; /* Ensures the image scales proportionally */
+                border-radius: 8px; /* Optional: add rounded corners */
+            }
+        }
+    }
 }
+
 
 footer {
     display: flex;
